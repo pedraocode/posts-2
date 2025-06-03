@@ -72,11 +72,19 @@
     margin-bottom: 0.5rem;
   }
   
-  .post-inner p {
+  .post-inner h3 {
     font-size: 0.95rem;
     color: #555;
   }
   
+  .post-inner img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 1rem;
+  border-radius: 6px;
+}
+
   footer {
     text-align: center;
     font-size: 0.85rem;
@@ -85,4 +93,7 @@
     margin-top: 25px;
   }
   
- 
+ a {
+  text-decoration: none;
+  color: #2e2e2e;
+ }
